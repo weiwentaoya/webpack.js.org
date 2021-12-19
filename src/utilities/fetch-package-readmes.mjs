@@ -48,7 +48,12 @@ async function main() {
       const url = `https://raw.githubusercontent.com/${repo}/master/README.md`;
       const htmlUrl = `https://github.com/${repo}`;
       const editUrl = `${htmlUrl}/edit/master/README.md`;
+<<<<<<< HEAD
       const fileName = path.resolve(outputDir, `_${packageName}.mdx`);
+=======
+      const fileName = path.resolve(outputDir, `${packageName}.mdx`);
+      const mdxFileName = path.resolve(outputDir, `${packageName}.mdx`);
+>>>>>>> d054d4656cbfb5228fc96f5de26d4f0ce349f742
 
       let title = packageName;
 
